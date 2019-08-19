@@ -1,0 +1,163 @@
+/* Typography imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nova+Mono&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nova Mono", monospace;
+}
+
+p,
+a {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  border-color: 3px solid #ff40ff;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.intro {
+  font-size: 25px;
+  font-style: normal;
+  margin-left: 40px;
+  background: transparent;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.pink {
+  color: #ff40ff;
+}
+.titlebox {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 2fr));
+  align-items: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
+
+.titlebox > * {
+  color: black;
+}
+
+.titlebox > img {
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  min-width: 420px;
+  max-width: 480px;
+}
+
+.titlebox > .titletext > .jeff {
+  font-size: 1rem;
+  font-weight: 30rem;
+  text-align: center;
+  font-style: italic;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.titlebox > .titletext > a {
+  padding: 1rem;
+  width: 10rem;
+  height: 30px;
+  font-size: 1rem;
+  margin: 1rem 10rem;
+  border: 1px solid #ff40ff;
+  box-shadow: 6px 6px 2px 1px #ff40ff;
+  background-color: #bcf4f1;
+}
+
+.titletext {
+  width: 400px;
+}
+
+.bobas {
+  padding: 2rem;
+}
+
+.bobas > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+.bobas > ul > li {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.bobas > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+
+.bobas > ul > li > figure > img {
+  width: 100%;
+}
+
+.bobas > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.bobas > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.bobas > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 0.75rem;
+  color: #666666;
+}
+
+.bobas > ul > li > a {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #bcf4f1;
+  border: 1px solid #ff40ff;
+  box-shadow: 6px 6px 2px 1px #ff40ff;
+  margin-bottom: 2rem;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+}
