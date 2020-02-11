@@ -54,7 +54,7 @@ a:hover {
   padding: 4rem 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-  align-items: center;
+  /* align-items: center; */
   grid-column-gap: 30px;
   grid-row-gap: 15px;
 }
